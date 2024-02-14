@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #d53caa;
+    color: #ffffff;
+    font-family: "Lucida Handwriting", Arial, sans-serif;
+}
+/* id section */
+#wrapper{   
+    padding: 2em;
+}
+#hearthero{
+    background-image: url(images/heart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding-bottom: 1em;
+    position:absolute; right: 1px; bottom: 300px;
+    flex: auto;
+}
+#hallmarkhero{
+    background-image: url(images/hallmark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 300px;
+    width: 600px;
+    padding-bottom: 1em;
+}
+#cheesehero{
+    background-image: url(images/cheese.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding-bottom: 1em;
+}
+#labelhero{
+    background-image: url(images/50.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding-bottom: 1em;
+    position: absolute; bottom: 190px; right: 600px;
+}
